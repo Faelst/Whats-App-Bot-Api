@@ -1,0 +1,27 @@
+{
+  "name": "Whats-App-Bot-Api",
+  "version": "1.0.0",
+  "description": "What's app ChatBot API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faelst/Whats-App-Bot-Api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faelst/Whats-App-Bot-Api/issues"
+  },
+  "homepage": "https://github.com/Faelst/Whats-App-Bot-Api#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.17",
+    "mysql": "^2.18.1",
+    "venom-bot": "https://github.com/orkestral/venom/releases/download/nightly/venom-bot-nightly.tgz"
+  }
+}
